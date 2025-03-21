@@ -8,7 +8,7 @@ const Home = () => {
 
   return (
     <div>
-      <h1>News Aggregator</h1>
+      <h1 className="center-title">News Aggregator</h1>
       <SearchBar setNews={setNews} />
       <Filters setNews={setNews} />
       <NewsList news={news} />
